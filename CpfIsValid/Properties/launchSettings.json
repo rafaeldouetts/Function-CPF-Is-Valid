@@ -1,0 +1,15 @@
+{
+  "profiles": {
+    "CpfIsValid": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7091"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "containerRunArguments": "--init",
+      "httpPort": 34364,
+      "useSSL": false
+    }
+  }
+}
